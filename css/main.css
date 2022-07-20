@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"), url("../fonts/Vazir.woff2") format("woff2"), url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Vazir" !important;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark .dark-bg-body-dark {
+    background: url(../images/bg-dark.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-gray {
+    color: #44494e !important;
+}
+
+.lh-0 {
+    line-height: 0;
+}
+
+.darkmode-switch {
+    width: 2.5em !important;
+    height: 1.5rem !important;
+}
+
+.dark .dark-text-white {
+    color: white !important;
+}
+
+/* Header */
+.header {
+    padding-top: 90px;
+}
+
+.header .countdown div {
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: 10px 10px;
+    width: 100px;
+    padding: 15px 0;
+}
+
+.header .social-links a {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 3px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s;
+}
+
+.header .social-links a:hover {
+    background: #0d6efd;
+    border-color: #0d6efd;
+}
+
+@media (max-width: 575px) {
+    .header .countdown div {
+        margin: 10px 8px;
+        width: 70px;
+        padding: 10px 0;
+    }
+}
+
+/* Contact Us */
+.contact hr {
+    width: 80px;
+    height: 5px;
+}
+
+.contact .card {
+    border-top: 4px solid #0d6efd;
+    border-bottom: 4px solid #0d6efd;
+    padding: 30px;
+    border-radius: 0.25rem;
+    background: rgba(255, 255, 255, 0.06);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+
+.contact .card i {
+    font-size: 20px;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.contact .card i:hover {
+    background: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+
+/* iTyped.js */
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
