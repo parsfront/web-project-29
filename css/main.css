@@ -12,6 +12,7 @@ body {
     background: url(../images/bg.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden !important;
 }
 
 .dark .dark-bg-body-dark {
